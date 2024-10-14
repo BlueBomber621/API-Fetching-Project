@@ -4,17 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My API Test</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- Inspect this document, and check the console to see if the data is there. -->
-    <script>
-      let source =
-        "https://iskarr.github.io/austindonovan.github.io/api/business.json";
-      fetch(source)
-        .then((response) => response.json())
-        .then((jsObject) => {
-          console.log(jsObject);
-        });
-    </script>
+    <main>
+      <section class="business-area"></section>
+    </main>
+    <script src="script.js"></script>
   </body>
 </html>
